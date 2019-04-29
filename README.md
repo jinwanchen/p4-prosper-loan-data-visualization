@@ -27,6 +27,7 @@ Exploratory and explanatory data analysis of [Prosper](https://www.prosper.com/)
 * The structure of the raw dataset was described after a preliminary review of this data.
 * Based on the purpose of analyzing the loan data, identifying the correlation of variables associated with each loan with a borrower's APR, 16 features, which were considered to be most relevant to this investigation, were selected.
 * A sub-dataset containing only these _main_ features was created from the raw dataset.
+* Nine assessments of the sub-dataset which render data cleaning necessary were made and documented.
 
 ## Part 2: Explanatory Data Analysis
 
