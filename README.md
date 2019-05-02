@@ -21,6 +21,7 @@ Exploratory and explanatory data analysis of [Prosper](https://www.prosper.com/)
 * `data_dictionary.xlsx`
   - The Excel file lists the names of all variables in the loan data and provides the definition for each variable.
   - The file was manually downloaded from the [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1gDyi_L4UvIrLTEC6Wri5nbaMmkGmLQBk-Yx3z0XDEtI/edit#gid=0).
+* `prosperLoanData_clean.csv`: contains the clean version of the raw Prosper loan data.
 
 ## Part 0: Data Wrangling
 * The structure of the raw dataset was described after a preliminary review of this data.
@@ -28,6 +29,7 @@ Exploratory and explanatory data analysis of [Prosper](https://www.prosper.com/)
 * A sub-dataset containing only these _main_ features was created from the raw dataset.
 * Ten assessments of the sub-dataset which render data cleaning necessary were made and documented.
 * Data cleaning was defined, coded, performed, and verified for each of these assessments.
+* Clean version of the dataset was stored in a separate `.csv` file.
 
 ## Part 1: Exploratory Data Analysis
 
