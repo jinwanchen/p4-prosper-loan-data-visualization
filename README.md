@@ -22,13 +22,14 @@ Exploratory and explanatory data analysis of [Prosper](https://www.prosper.com/)
   - The Excel file lists the names of all variables in the loan data and provides the definition for each variable.
   - The file was manually downloaded from the [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1gDyi_L4UvIrLTEC6Wri5nbaMmkGmLQBk-Yx3z0XDEtI/edit#gid=0).
 
-## Part 1: Exploratory Data Analysis
-### Data Wrangling
+## Part 0: Data Wrangling
 * The structure of the raw dataset was described after a preliminary review of this data.
 * Based on the purpose of analyzing the loan data, identifying the correlation of variables associated with each loan with a borrower's APR, 16 features, which were considered to be most relevant to this investigation, were selected.
 * A sub-dataset containing only these _main_ features was created from the raw dataset.
-* Nine assessments of the sub-dataset which render data cleaning necessary were made and documented.
+* Ten assessments of the sub-dataset which render data cleaning necessary were made and documented.
 * Data cleaning was defined, coded, performed, and verified for each of these assessments.
+
+## Part 1: Exploratory Data Analysis
 
 ## Part 2: Explanatory Data Analysis
 
