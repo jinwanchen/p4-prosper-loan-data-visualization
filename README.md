@@ -32,6 +32,17 @@ Exploratory and explanatory data analysis of [Prosper](https://www.prosper.com/)
 * Clean version of the dataset was stored in a separate `.csv` file.
 
 ## Part 1: Exploratory Data Analysis
+### 1. Univariate Exploration
+Listed below are key statistics observed for each of the main features.
+* Among the three terms, 12, 36, and 64 months, 36 months accounted for approximately 75% of all listings.
+* Among the 21 categories of loans offered in Prosper, approximately 57% of all listings aimed to consolidate debt.
+* Among the 50 states, California ranked the first in the number of listings which accounted for around 13% of all listings.
+* Nearly 95% of the borrowers who received loans from Prosper were employed (including full-time employees).
+* Distribution of the range of borrowers' credit scores was approximately normal with its center at approximately between 660 and 699.
+* Among the quantitative variables, right-skewed distribution was observed for borrowers' employment status duration, total credit lines, total inquiries, debt to income ratio, and monthly income.
+* Nearly all listings were for borrowers without any delinquencies in the past seven years from when their credit profile was pulled.
+* Almost all borrowers who applied for loans had not spent more than their available credit line.
+* Most frequently observed loan amounts were between $4,000 and $5,000, between $15,000 and $16,000 and between $10,000 and $11,000.
 
 ## Part 2: Explanatory Data Analysis
 
