@@ -6,6 +6,7 @@ Exploratory and explanatory data analysis of [Prosper](https://www.prosper.com/)
 * python 3.7.2 (or python 3)
 * Libraries
   - pandas
+  - numpy
   - matplotlib
   - seaborn
   - copy
@@ -43,6 +44,16 @@ Listed below are key statistics observed for each of the main features.
 * Nearly all listings were for borrowers without any delinquencies in the past seven years from when their credit profile was pulled.
 * Almost all borrowers who applied for loans had not spent more than their available credit line.
 * Most frequently observed loan amounts were between $4,000 and $5,000, between $15,000 and $16,000 and between $10,000 and $11,000.
+
+### 2. Bivariate Exploration
+Listed below are key observations from exploring pairs of variables which showed notable correlations.
+* The median of APRs offered to borrowers for each range of credit scores showed a logistic decrease from approximately 0.3 for the lowest credit score range of 520-539 to approximately 0.09 for the highest credit score range of 880-899.
+* Loans with higher principals were generally offered for longer terms. For instance, interquartile ranges of loan amounts increased with longer terms: $2,500-$5,000 for 12-month, $3,000-$10,000 for 36-month, and $8,000-$15,000 for 60-month.
+* Borrowers' maximum number of total inquiries exponentially decreased with increasing ranges of credit scores until the score reached above 700 from which the distribution of total inquiries remained fairly consistent across credit scores.
+* Borrowers' with credit scores of 700 or above had no record of delinquencies for the past seven years.
+* The median of bankcard utilization rates for each range of credit scores showed a logistic decrease from nearly 1.00 for those with lowest credit scores between 520 and 539 to nearly 0.00 for those with highest credit scores between 880 and 899.
+* Borrowers with higher credit scores stated larger monthly incomes.
+* The monetary amount of loans for which borrowers with credit scores below 700 were eligible significantly decreased with lower credit scores.
 
 ## Part 2: Explanatory Data Analysis
 
